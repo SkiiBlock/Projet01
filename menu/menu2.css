@@ -1,0 +1,51 @@
+@font-face{ /* INDISPENSABLE */
+	font-family: 'tardis';
+	src: url('Doctor-Who.ttf');
+}
+
+@font-face { /* INDISPENSABLE */
+	font-family: 'gallifreyan';
+	src: url('gallifreyan.ttf');
+}
+
+html { /* INDISPENSABLE */
+    background-color: #263762;
+	font-family: tardis;
+}
+
+#titre { /* INDISPENSABLE */
+	font-size: 80px;
+	font-family: gallifreyan;
+	margin-top: 70px;
+	text-align: center;
+	animation: titre 5s linear infinite alternate;
+}
+
+#titre:hover { /* INDISPENSABLE */
+	cursor: default;
+}
+
+.intro {
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    line-height: 0.9;
+    width: 1200px;
+}
+
+#img {
+    box-shadow: 0 5px 20px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+#flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+@keyframes titre {
+	0% {color: #132146;}
+	50% {color: #334c85;}
+	100% {color:#132146;}
+}

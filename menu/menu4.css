@@ -1,0 +1,113 @@
+@font-face{ /* INDISPENSABLE */
+	font-family: 'tardis';
+	src: url('Doctor-Who.ttf');
+}
+
+@font-face { /* INDISPENSABLE */
+	font-family: 'gallifreyan';
+	src: url('gallifreyan.ttf');
+}
+
+html { /* INDISPENSABLE */
+    background-color: #263762;
+	font-family: tardis;
+}
+
+#img { /* INDISPENSABLE */
+	font-size: 80px;
+	font-family: gallifreyan;
+	margin-top: 70px;
+	text-align: center;
+	animation: titre 5s linear infinite alternate;
+}
+
+#img:hover { /* INDISPENSABLE */
+	cursor: default;
+}
+
+#flexbox {
+	display: flex;
+	justify-content: space-around;
+}
+
+.dalek {
+    box-shadow: 0 5px 16px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.dalekText {
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	opacity: 0.0;
+	font-size: 20px;
+    line-height: 0.9;
+}
+
+.dalekImage:hover .dalekText {
+	opacity: 1.0;
+}
+
+.sontarien {
+    box-shadow: 0 5px 16px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.sontarienText {
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	opacity: 0.0;
+	font-size: 20px;
+    line-height: 0.9;
+}
+
+.sontarienImage:hover .sontarienText {
+	opacity: 1.0;
+}
+
+.cybermen {
+    box-shadow: 0 5px 16px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.cybermenText {
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	opacity: 0.0;
+	font-size: 20px;
+    line-height: 0.9;
+}
+
+.cybermenImage:hover .cybermenText {
+	opacity: 1.0;
+}
+
+.maitre {
+    box-shadow: 0 5px 16px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.maitreText {
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	opacity: 0.0;
+	font-size: 20px;
+    line-height: 0.9;
+}
+
+.maitreImage:hover .maitreText {
+	opacity: 1.0;
+}
+
+@keyframes titre {
+	0% {color: #132146;}
+	50% {color: #334c85;}
+	100% {color:#132146;}
+}

@@ -1,0 +1,99 @@
+@font-face{ /* INDISPENSABLE */
+	font-family: 'tardis';
+	src: url('Doctor-Who.ttf');
+}
+
+@font-face { /* INDISPENSABLE */
+	font-family: 'gallifreyan';
+	src: url('gallifreyan.ttf');
+}
+
+html { /* INDISPENSABLE */
+    background-color: #263762;
+	font-family: tardis;
+}
+
+#img { /* INDISPENSABLE */
+	font-size: 40px;
+	font-family: gallifreyan;
+	margin-top: 70px;
+	text-align: center;
+	animation: titre 5s linear infinite alternate;
+}
+
+#img:hover { /* INDISPENSABLE */
+	cursor: default;
+}
+
+#flexbox {
+	display: flex;
+	justify-content: space-around;
+}
+
+.text {
+	text-align: center;
+	font-size: 20px;
+}
+
+.gallifrey {
+    box-shadow: 0 5px 20px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.gallifreyText {
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	opacity: 0.0;
+	font-size: 20px;
+    line-height: 0.9;
+}
+
+.gallifreyImage:hover .gallifreyText {
+	opacity: 1.0;
+}
+
+.tardis {
+    box-shadow: 0 5px 20px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.tardisText {
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	opacity: 0.0;
+	font-size: 20px;
+    line-height: 0.9;
+}
+
+.tardisImage:hover .tardisText {
+	opacity: 1.0;
+}
+
+.tournevis {
+    box-shadow: 0 5px 20px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.tournevisText {
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	opacity: 0.0;
+	font-size: 20px;
+    line-height: 0.9;
+}
+
+.tournevisImage:hover .tournevisText {
+	opacity: 1.0;
+}
+
+@keyframes titre {
+	0% {color: #132146;}
+	50% {color: #334c85;}
+	100% {color:#132146;}
+}

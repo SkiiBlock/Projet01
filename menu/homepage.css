@@ -1,0 +1,133 @@
+@font-face{ /* INDISPENSABLE */
+	font-family: 'tardis';
+	src: url('Doctor-Who.ttf');
+}
+
+@font-face { /* INDISPENSABLE */
+	font-family: 'gallifreyan';
+	src: url('gallifreyan.ttf');
+}
+
+html { /* INDISPENSABLE */
+    background-color: #263762;
+	font-family: tardis;
+}
+
+#titre { /* INDISPENSABLE */
+	font-size: 80px;
+	font-family: gallifreyan;
+	margin-top: 70px;
+	text-align: center;
+	animation: titre 5s linear infinite alternate;
+}
+
+#titre:hover { /* INDISPENSABLE */
+	cursor: default;
+}
+
+#flexbox2 {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#flexbox3 {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.menu1:hover {
+	cursor: pointer;
+	background-color: #334c85;
+}
+
+.menu2:hover {
+	cursor: pointer;
+	background-color: #334c85
+}
+
+.menu3:hover {
+	cursor: pointer;
+	background-color: #334c85
+}
+
+.menu4:hover {
+	cursor: pointer;
+	background-color: #334c85
+}
+
+.menu5:hover {
+	cursor: pointer;
+	background-color: #334c85
+}
+
+.menu1 {
+	border-radius: 12px;
+	box-shadow: 0 5px 16px;
+	background-color: #132146;
+	text-align: center;
+	width: 230px;
+	padding: 1px;
+}
+
+.menu2 {
+	border-radius: 12px;
+	box-shadow: 0 5px 16px;
+	background-color: #132146;
+	text-align: center;
+	width: 230px;
+	padding: 1px;
+}
+
+.menu3 {
+	border-radius: 12px;
+	box-shadow: 0 5px 16px;
+	background-color: #132146;
+	text-align: center;
+	width: 230px;
+	padding: 1px;
+}
+
+.menu4 {
+	border-radius: 12px;
+	box-shadow: 0 5px 16px;
+	background-color: #132146;
+	text-align: center;
+	width: 230px;
+	padding: 1px;
+}
+
+.menu5 {
+	border-radius: 12px;
+	box-shadow: 0 5px 16px;
+	background-color: #132146;
+	text-align: center;
+	width: 230px;
+	padding: 1px;
+}
+
+.espace1 {
+	width: 200px;
+}
+
+@keyframes titre {
+	0% {color: #132146;}
+	50% {color: #334c85;}
+	100% {color:#132146;}
+}
